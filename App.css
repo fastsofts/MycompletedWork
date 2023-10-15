@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.card{
+   flex: 0 1 30%;
+}   
+
+.card__title{
+  font-size:3vw;
+  color:blue;
+}  
+
+.card__text{
+  font-size:2vw;
+  color:green; 
+}
+
+.card__link{
+  font-size:1.5vw;
+  color:orange; 
+}
